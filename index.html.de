@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta name="GENERATOR" content="IMPERIA 10.3.0" />
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Keywords here">
+    <title>Startseite</title>
+
+    <link rel="stylesheet" href="/assets/dist/bootstrap/css/bootstrap.min.css">
+    <link href="/assets/dist/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/modern-business.css" rel="stylesheet">
+    <link href="/assets/dist/MaterialDesignIcons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+
+<script type="text/javascript" src="/assets/js/countdown.js"></script>
+<script>
+    // Countdown
+        countdown.setLabels(
+        ' millisecond | Sek. | Min. | Stunde | Tag | Woche | Monat | Jahr| decade| century| millennium',
+        ' milliseconds | Sek. | Min. | Stunden | Tage | Wochen | Monate | Jahre| decades| centuries| millennia',
+        ' und ',
+        ', ',
+        'Jetzt',
+        function(n){ return n.toString(); });
+
+      function getRemainingTime(deadline,id) {
+          // var now = new Date();
+          var deadline = deadline;
+          var id = '#'+id;
+          var output;
+          var outputDiv = document.querySelector(id);
+
+          var t = Date.parse(deadline) - Date.parse(new Date());
+          if (t > 0) {
+            output = countdown(null, deadline, countdown.YEARS |	countdown.MONTHS | countdown.WEEKS | countdown.DAYS | countdown.HOURS | countdown.MINUTES, 1);
+          } else {
+            output = "Vorbei";
+            outputDiv.previousElementSibling.innerHTML = '';
+            outputDiv.nextElementSibling.innerHTML = '';
+          }
+          outputDiv.innerHTML = output;
+
+      }
+      </script>
+
+
+    <meta name="X-Imperia-Live-Info" content="b7b50283-48ec-8cbc-866d-9b84b8ef894f/28/29/120" />
+</head>
+<!--IFTS_NO_PARSE-->
+<!-- FIXME: class according to page -->
+<body class="startpage"
+>
+
+
+<!--multilang_start-->
+
+
+    <div class="brand">
+        <div class="container clearfix">
+            <a class="navbar-brand" href="/index.html.de"></a>
+            <form name="search" action="/cgi-bin/fts_search_standardmandant.pl" method="POST" id="search" class="mandanten_search" >
+                <div class="input-group">
+                  <input name="SEARCH" class="form-control" placeholder="Search..."
+                  type="search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </span>
+                </div>
+                  <input type="hidden" name="HTML-NR" value="1" />
+                  <input type="hidden" name="GROUP" value="lingua_de" />
+                  <input type="hidden" name="LINGUA" value="de" />
+            </form>
+
+            <button type="button" class="navbar-toggle visible-xs visible-sm" data-toggle="collapse" data-target="#mobile-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="mobile-nav" id="mobile-nav">
+
+                <!--#include virtual="/ssi/navigation/mobile_nav.29.de.ssi" -->
+
+            </div><!-- end mobile nav-->
+
+            <div class="dropdown language_select">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    DE
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li
+                    class="active"
+                    >
+                        <a href="index.html.de">DE</a>
+                    </li>
+                    <li
+                    >
+                        <a
+                        href="index.html.en"
+                        >EN</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div><!--end brand-->
+
+        <nav class="navbar navbar-inverse navbar-fixed-top quicknav" role="navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse quicknav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header Carousel -->
+        <header id="startpageCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+
+                <li data-target="#startpageCarousel" data-slide-to="0"
+                    class="active"
+                ></li>
+
+                <li data-target="#startpageCarousel" data-slide-to="1"
+                ></li>
+
+                <li data-target="#startpageCarousel" data-slide-to="2"
+                ></li>
+
+                <li data-target="#startpageCarousel" data-slide-to="3"
+                ></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+<style>
+    @media screen and (min-width: 1800px) {
+        .carousel #fill_10501_0 {
+            background-image: url("/mam/schauen/tourismus/fuehrungen/fittosize_2000_400_2009_3379_7b45ca8b30a127162c2c6a0ba2f803b7_f__hrung1_headerbild.jpg");
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .carousel #fill_10501_0 {
+            background-image: url("/mam/schauen/tourismus/fuehrungen/fittosize_1800_350_2009_3379_a7274fa9cfa9a84e519a111a33f6d6d9_f__hrung1_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        .carousel #fill_10501_0 {
+            background-image: url("/mam/schauen/tourismus/fuehrungen/fittosize_1200_350_2009_3379_d1b2477582016c43483cdf3b20231fed_f__hrung1_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .carousel #fill_10501_0 {
+            background-image: url("/mam/schauen/tourismus/fuehrungen/fittosize_990_300_2009_3379_0a34ee69cb15b64121cc8b2c712d9f6d_f__hrung1_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .carousel #fill_10501_0 {
+            background-image: url("/mam/schauen/tourismus/fuehrungen/fittosize_600_290_2009_3379_a3c2ded1ad0490be8a6b728e2cb6cf98_f__hrung1_headerbild.jpg");
+        }
+    }
+</style>
+
+                <div
+                    class="item active"
+                >
+
+                    <div class="fill" id="fill_10501_0">
+
+                    </div>
+                    <div class="carousel-caption">
+                        <h2>
+                            <a href="/schauen/tourismus/index.html.de">
+                            Tourismus in Schauen
+                            </a>
+                        </h2>
+
+                    </div>
+                </div>
+
+<style>
+    @media screen and (min-width: 1800px) {
+        .carousel #fill_10501_1 {
+            background-image: url("/mam/schauen/aktuelles/bekanntmachungen/fittosize_2000_400_2446_1626_700826e47d1a135a353648d4027d50a9_jake-givens-545.jpg");
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .carousel #fill_10501_1 {
+            background-image: url("/mam/schauen/aktuelles/bekanntmachungen/fittosize_1800_350_2446_1626_d4b1c6833e4ed8744b240ab6cf5d7e25_jake-givens-545.jpg");
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        .carousel #fill_10501_1 {
+            background-image: url("/mam/schauen/aktuelles/bekanntmachungen/fittosize_1200_350_2446_1626_8e2ca34318812645fe67875c1f2e0515_jake-givens-545.jpg");
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .carousel #fill_10501_1 {
+            background-image: url("/mam/schauen/aktuelles/bekanntmachungen/fittosize_990_300_2446_1626_3fc536f90aecb90dab331b2b0a306f63_jake-givens-545.jpg");
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .carousel #fill_10501_1 {
+            background-image: url("/mam/schauen/aktuelles/bekanntmachungen/fittosize_600_290_2446_1626_cfd583dc8a85e78ad0a8324ad470008f_jake-givens-545.jpg");
+        }
+    }
+</style>
+
+                <div
+                    class="item"
+                >
+
+                    <div class="fill" id="fill_10501_1">
+
+                    </div>
+                    <div class="carousel-caption">
+                        <h2>
+                            <a href="/aktuelles/news/000458/index.html.de">
+                            Was passiert, wenn einer Millionenstadt das Wasser ausgeht?
+                            </a>
+                        </h2>
+
+                    </div>
+                </div>
+
+<style>
+    @media screen and (min-width: 1800px) {
+        .carousel #fill_10501_2 {
+            background-image: url("/mam/schauen/aktuelles/veranstaltungen/fittosize_2000_400_2188_1797_ab28103b8ea6f731a8ff1006c439cb45_veranstaltung2_detailbild.jpg");
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .carousel #fill_10501_2 {
+            background-image: url("/mam/schauen/aktuelles/veranstaltungen/fittosize_1800_350_2188_1797_63e55979d5442103a38f667ed98abf3e_veranstaltung2_detailbild.jpg");
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        .carousel #fill_10501_2 {
+            background-image: url("/mam/schauen/aktuelles/veranstaltungen/fittosize_1200_350_2188_1797_dfbcc5211cd5e8207395a6c4970acca7_veranstaltung2_detailbild.jpg");
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .carousel #fill_10501_2 {
+            background-image: url("/mam/schauen/aktuelles/veranstaltungen/fittosize_990_300_2188_1797_b36fba6e11807ac8462ef1e0da7e09c3_veranstaltung2_detailbild.jpg");
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .carousel #fill_10501_2 {
+            background-image: url("/mam/schauen/aktuelles/veranstaltungen/fittosize_600_290_2188_1797_8461de0edc8fe37135a461ab8a2c8419_veranstaltung2_detailbild.jpg");
+        }
+    }
+</style>
+
+                <div
+                    class="item"
+                >
+
+                    <div class="fill" id="fill_10501_2">
+
+                    </div>
+                    <div class="carousel-caption">
+                        <h2>
+                            <a href="/aktuelles/news/000144/index.html.de">
+                            Flohmarkt im Trockenen
+                            </a>
+                        </h2>
+
+                    </div>
+                </div>
+
+<style>
+    @media screen and (min-width: 1800px) {
+        .carousel #fill_10501_3 {
+            background-image: url("/mam/schauen/bildung/kinderbetreuung/fittosize_2000_350_67fe1fc3f57ce79ec154094f28e813d1_kindergarten3_headerbild.jpg");
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .carousel #fill_10501_3 {
+            background-image: url("/mam/schauen/bildung/kinderbetreuung/fittosize_1500_350_c595f4931a54aa0de7a3b1f0c34d7452_kindergarten3_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        .carousel #fill_10501_3 {
+            background-image: url("/mam/schauen/bildung/kinderbetreuung/fittosize_1400_350_79a55816290cfcf8f1ab0fe3442db3d3_kindergarten3_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .carousel #fill_10501_3 {
+            background-image: url("/mam/schauen/bildung/kinderbetreuung/fittosize_1000_300_c373fd3134e0c11020eff4e12ca34b4c_kindergarten3_headerbild.jpg");
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .carousel #fill_10501_3 {
+            background-image: url("/mam/schauen/bildung/kinderbetreuung/fittosize_500_300_c2771759050630f1414dfdab0decfd86_kindergarten3_headerbild.jpg");
+        }
+    }
+</style>
+
+                <div
+                    class="item"
+                >
+
+                    <div class="fill" id="fill_10501_3">
+
+                    </div>
+                    <div class="carousel-caption">
+                        <h2>
+                            <a href="/schauen/bildung/kinderbetreuung/000234/index.html.de">
+                            Kindergarten Villa Kunterbunt
+                            </a>
+                        </h2>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#startpageCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#startpageCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </header>
+
+
+
+
+
+    <!--IFTS_NO_PARSE-->
+    <div class="main_nav hidden-xs hidden-sm">
+        <div class="container">
+        <!--#include virtual="/ssi/navigation/main_nav.29.de.ssi" -->
+        </div><!--end container-->
+    </div>
+<!--IFTS_PARSE-->
+
+
+
+    <!-- Page Content -->
+    <div class="main_content container">
+
+        <div class="row">
+<!--IFTS_PARSE-->
+
+<!--#include virtual="/admin/ssi/quickinfo/index.ssi.de" -->
+
+<h1 class="page-header">News</h1><!--#include virtual="/ssi/sa/last/cat_news.de.ssi" --><h1 class="page-header">Veranstaltungen</h1><!--#include virtual="/ssi/sa/last/cat_veranstaltungen.de.ssi" --><h1 class="page-header">Bekanntmachungen</h1><!--#include virtual="/ssi/sa/last/cat_bekanntmachungen.de.ssi" --><h1 class="page-header">Schulen</h1><!--#include virtual="/ssi/sa/last/cat_schulen.de.ssi" --><h1 class="page-header">Kinderbetreuung</h1><!--#include virtual="/ssi/sa/last/cat_kinderbetreuung.de.ssi" -->
+<!--IFTS_NO_PARSE-->
+        </div>
+        <!-- /.row -->
+
+        <!-- Footer -->
+<!--#include virtual="/admin/footer.ssi.de" -->
+
+    </div>
+    <!-- /.container -->
+
+<!--multilang_end-->
+
+    <script type="text/javascript" src="/assets/dist/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/dist/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/standardmandant.js"></script>
+
+    <script>
+    $('#startpageCarousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+     <script id="dsq-count-scr" src="https://stadt-schauen.disqus.com/count.js" async></script>
+
+
+
+
+
+</body>
+
+</html>
